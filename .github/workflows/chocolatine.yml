@@ -94,6 +94,6 @@ jobs:
       - uses: pixta-dev/repository-mirroring-action@v1
         with:
           target_repo_url:
-            github.com/EpitechPGEPromo2029/B-DOP-200-BAR-2-1-chocolatine-ana.pallares-rodriguez
+            git@github.com:EpitechPGEPromo2029/B-DOP-200-BAR-2-1-chocolatine-ana.pallares-rodriguez
           ssh_private_key:
             ${{ secrets.SSH_KEY }}
